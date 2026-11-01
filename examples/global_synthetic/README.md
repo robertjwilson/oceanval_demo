@@ -6,7 +6,7 @@ The data are made from formulae of latitude, longitude, depth and season (plus s
 real coastlines, so the maps look like the real ocean: warm tropics, subtropical salinity maxima,
 nutrient-rich high latitudes and upwelling zones, empty gyres, western-boundary warm tongues.
 
-The data provider is called **Zissou Oceanographic** throughout.
+The data provider is called **Zissou** in the report; its long description reads "Zissou Oceanographic".
 
 ## The finished report
 

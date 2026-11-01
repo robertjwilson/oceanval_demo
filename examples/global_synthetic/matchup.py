@@ -52,8 +52,8 @@ COMPARISONS = [
 
 
 PROVIDER = "Zissou Oceanographic"
-# a source name becomes part of file names that CDO is given, so it cannot hold a space
-KEY = PROVIDER.replace(" ", "")
+# the source name is shown throughout the report and is part of file names CDO is given (no spaces)
+KEY = PROVIDER.split()[0]  # "Zissou": the name the report shows; PROVIDER is only in the long description
 # every comparison of one variable needs its own source name, so temperature's three are told apart
 SOURCE_NAMES = {
     ("temperature", "cobe2"): f"{KEY}SST",
