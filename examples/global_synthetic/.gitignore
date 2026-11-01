@@ -1,0 +1,8 @@
+# regenerable with make_synthetic_data.py
+data/model/
+data/obs/
+# OceanVal's working output; only the HTML in report/ is kept
+oceanval_matchups/
+oceanval_results/
+oceanval_report/
+oceanval_report.html
